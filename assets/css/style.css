@@ -421,6 +421,10 @@ a {
   background-image: url(./../img/image7.svg);
 }
 
+.f3 {
+  background-image: url(./../img/ci4.svg);
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
