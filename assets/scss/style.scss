@@ -50,9 +50,10 @@ a {
     width: 171px;
     height: 70px;
     max-width: 171px;
-    background-image: url(./../img/logo.svg);
+    background-image: url(./../img/pngwing1.svg);
     background-repeat: no-repeat;
     background-position: 0;
+    background-size: contain;
   }
   &_links {
     display: flex;
@@ -325,9 +326,10 @@ a {
     width: 60%;
   }
   &_image {
-    background-image: url(./../img/Group10.png);
+    background-image: url(./../img/pngwing1.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     min-width: 283px !important;
     min-height: 431px !important;
   }
