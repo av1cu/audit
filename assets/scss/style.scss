@@ -356,11 +356,20 @@ a {
   flex-wrap: wrap;
   gap: 1%;
   text-align: left;
+  align-items: flex-start;
+  &_text {
+    color: #999999;
+    display: none;
+  }
   &_item {
     flex: 1;
     background-color: #f7f7f7;
     padding: 15px;
     margin-bottom: 10px;
+    width: 300px;
+    &:hover .service_text {
+      display: block;
+    }
   }
   &_title {
     margin-bottom: 10px;
@@ -381,9 +390,6 @@ a {
       background-repeat: no-repeat;
       background-size: contain;
     }
-  }
-  &_text {
-    color: #999999;
   }
   &_more {
     margin-top: 10px;

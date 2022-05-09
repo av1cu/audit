@@ -486,6 +486,14 @@ a {
       flex-wrap: wrap;
   gap: 1%;
   text-align: left;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.service_text {
+  color: #999999;
+  display: none;
 }
 
 .service_item {
@@ -495,6 +503,11 @@ a {
   background-color: #f7f7f7;
   padding: 15px;
   margin-bottom: 10px;
+  width: 300px;
+}
+
+.service_item:hover .service_text {
+  display: block;
 }
 
 .service_title {
@@ -517,10 +530,6 @@ a {
   background-image: url(./../img/Polygon.svg);
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.service_text {
-  color: #999999;
 }
 
 .service_more {
